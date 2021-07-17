@@ -1,0 +1,24 @@
+l=1;
+max=0;
+min=100000;
+c=0;
+while(l~=0)
+    l=input('length');
+    if (l>c)
+        if(l>max)
+        max=l;
+        end
+    else
+       if(l~=0)  
+        if(l<min)
+            min=l;
+        end
+       else
+       end 
+    end 
+    c=l;
+end   
+disp(max);
+disp(min);
+avg=(max+min)/2;
+disp(avg);
